@@ -1,0 +1,7 @@
+ContextMenu_EN {
+    ContextMenu_Use_Metric = "Use Metric",
+    ContextMenu_Use_Imperial = "Use Imperial",
+    ContextMenu_Hide_Trip_Odometer = "Hide Trip Odometer",
+    ContextMenu_Show_Trip_Odometer = "Show Trip Odometer",
+    ContextMenu_Reset_Trip_Odometer = "Reset Trip Odometer",
+}

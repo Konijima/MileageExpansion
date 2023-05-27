@@ -1,0 +1,3 @@
+Tooltip_EN {
+    Tooltip_Reset_Trip_Odometer = "Set the trip odometer to zero. <LINE> Cannot be undone.",
+}

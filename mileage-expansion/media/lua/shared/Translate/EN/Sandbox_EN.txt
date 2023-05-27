@@ -1,0 +1,23 @@
+Sandbox_EN = {
+    Sandbox_MileageExpansion = "Mileage Expansion",
+
+    Sandbox_MileageExpansion_Default_Unit = "Default Unit",
+    Sandbox_MileageExpansion_Default_Unit_tooltip = "Default Unit newly created vehicle starts with.",
+    Sandbox_MileageExpansion_Default_Unit_option1 = "Miles",
+    Sandbox_MileageExpansion_Default_Unit_option2 = "Kilometers",
+
+    Sandbox_MileageExpansion_Meter_Per_Kilometer = "Meter per Kilometer",
+    Sandbox_MileageExpansion_Meter_Per_Kilometer_tooltip = "Set the amount of meter is in a kilometer. <LINE> Lower value mean 1 kilometer take less time to travel. <LINE> Higher value means 1 kilometer takes more time to travel.",
+
+    Sandbox_MileageExpansion_Kilometer_Short_Name = "Kilometer Short Name",
+    Sandbox_MileageExpansion_Kilometer_Short_Name_tooltip = "Set a custom short name for Kilometers. Default: km",
+
+    Sandbox_MileageExpansion_Miles_Short_Name = "Miles Short Name",
+    Sandbox_MileageExpansion_Miles_Short_Name_tooltip = "Set a custom short name for Miles. Default: mi",
+
+    Sandbox_MileageExpansion_Minimum_Starting_Odometer = "Minimum Starting Odometer",
+    Sandbox_MileageExpansion_Minimum_Starting_Odometer_tooltip = "This is the minimum amount of kilometers used to randomize a vehicle starting odometer value. <LINE> The engine condition will affect the final value only.",
+
+    Sandbox_MileageExpansion_Maximum_Starting_Odometer = "Maximum Starting Odometer",
+    Sandbox_MileageExpansion_Maximum_Starting_Odometer_tooltip = "This is the maximum amount of kilometers used to randomize a vehicle starting odometer value. <LINE> The engine condition will affect the final value only.",
+}

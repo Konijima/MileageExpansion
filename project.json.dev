@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Konijima/project-zomboid-studio/master/pzstudio.schema.json",
+    "title": "Mileage Expansion (Dev)",
+    "authors": [
+        "Konijima"
+    ],
+    "workshop": {
+        "id": 2980699059,
+        "visibility": "unlisted",
+        "tags": [
+            "Build 41",
+            "Misc",
+            "Interface",
+            "Realistic",
+            "Vehicles"
+        ],
+        "excludes": []
+    },
+    "mods": {
+        "mileage-expansion": {
+            "name": "Mileage Expansion (Dev)",
+            "description": "Introducing the Mileage Expansion mod, a game-changer for all vehicle enthusiasts! Get ready to embark on a journey of realism and immersion as this mod brings a whole new level of authenticity to your favorite game."
+        }
+    }
+}

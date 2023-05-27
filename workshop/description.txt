@@ -1,0 +1,105 @@
+[h1]Mileage Expansion[/h1]
+
+Introducing the "Mileage Expansion" mod, a game-changer for all vehicle enthusiasts! Get ready to embark on a journey of realism and immersion as this mod brings a whole new level of authenticity to your favorite game.
+
+With the "Mileage Expansion" mod, every vehicle in the game now has its own unique mileage system.
+As you hit the road, every mile you traverse will be recorded and accounted for. 
+
+The mod introduces a comprehensive mileage tracking system that keeps tabs on the distance you've traveled in each vehicle. 
+Whether you're cruising down the highways, off-roading through rugged terrains, or soaring through the skies, every adventure will leave its mark on your vehicle's odometer.
+
+[h2]Features:[/h2]
+[b]Random Starting Mileage[/b]
+Every existing and new car will have a unique starting mileage based on its initial engine condition.
+
+[b]Mileage Counter Options[/b]
+Clicking the mileage counter opens a menu with options to switch between metric and imperial units and access the trip odometer.
+
+[b]Resettable Trip Odometer[/b]
+The trip odometer can be reset to zero, allowing you to track distances for specific trips or periods.
+
+[b]Admin Mileage Cheat[/b]
+The admin has the ability to modify the vehicle's mileage using the mechanic overlay for testing or administrative purposes.
+
+[b]Engine-Based Mileage[/b]
+Mileage data is stored on the vehicle's engine rather than on the vehicle itself.
+
+[b]One Meter Equals One Tile Square[/b]
+The in-game measurement system equates one meter to one tile square.
+
+[b]Kilometer to Mile Conversion[/b]
+Mileage is saved in kilometers but displayed in miles on the counter when the imperial unit is enabled.
+
+[b]Persistent Metric/Imperial Setting[/b]
+The chosen metric/imperial unit setting is saved on the vehicle, ensuring that other players see the mileage in the last set unit.
+
+[b]Action-Based Operations[/b]
+Switching between metric/imperial units, showing/hiding the trip odometer, and resetting the trip odometer are actual actions that require time to complete.
+
+[h2]Sandbox Options:[/h2]
+
+[b]Default Unit[/b]
+Default Unit newly created vehicle starts with. (Miles | Kilometers)
+
+[b]Meter per Kilometer[/b]
+Set the amount of meter is in a kilometer.
+Lower value mean 1 kilometer take less time to travel.
+Higher value means 1 kilometer takes more time to travel.
+
+[b]Kilometer Short Name[/b]
+Set a custom short name for Kilometers. Default: km
+
+[b]Miles Short Name[/b]
+Set a custom short name for Miles. Default: mi
+
+[b]Minimum Starting Odometer[/b]
+This is the minimum amount of kilometers used to randomize a vehicle starting odometer value.
+The engine condition will affect the final value only.
+
+[b]Maximum Starting Odometer[/b]
+This is the maximum amount of kilometers used to randomize a vehicle starting odometer value.
+The engine condition will affect the final value only.
+
+[h2]Modding the mod:[/h2]
+
+[b]Creating a translation mod:[/b]
+When you create a translation mod, make sure to only include the .txt for the language you are translating to.
+Never distribute any of lua files from this mod into your own translation mod.
+
+[b]Modify this mod:[/b]
+About everything is global, designed similarly to the base game.
+You can create a mod that requires, extend or patch this mod.
+There is an API in shared/ and a global client object to set the odometer.
+[code]
+--- Settings for the odometer
+OdometerSettings = {
+    backgroundImage = "media/ui/vehicles/vehicle_odometer.png",
+    odometerY = 93,
+    odometerTextY = 98.5,
+    colors = {
+        odometer = {
+            green = 1,
+            red = 1,
+            blue = 1,
+            alpha = 0.8,
+        },
+        tripOdometer = {
+            green = 0.8,
+            red = 0.8,
+            blue = 1,
+            alpha = 0.8,
+        }
+    },
+    font = UIFont.Small,
+}
+[/code]
+
+[quote]
+Mod created by [b]Konijima[/b]
+Commissioned by [b]Blubbazz[/b]
+[/quote]
+
+[h1]Hire Team Orbit for Custom Mod Commission[/h1]
+[url=https://discord.gg/2skchrKrDv]
+    [img]https://raw.githubusercontent.com/Glytch3r/TeamOrbitAds/main/square_serve.gif[/img]
+[/url]
